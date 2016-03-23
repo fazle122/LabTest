@@ -17,13 +17,19 @@ var App;
                 controllerAs: "std"
             })
                 .state("root.student-entry", {
-                url: "/student-entry/",
+                url: "/student-entry",
                 templateUrl: "partials/student/student-entry.html",
                 controller: "StudentController",
                 controllerAs: "std"
             })
+                .state("root.student-edit", {
+                url: "/student-edit/:id",
+                templateUrl: "partials/student/student-edit.html",
+                controller: "StudentController",
+                controllerAs: "std"
+            })
                 .state("root.student-list", {
-                url: "/student-list/",
+                url: "/student-list",
                 templateUrl: "partials/student/student-list.html",
                 controller: "StudentQueryController",
                 controllerAs: "std"

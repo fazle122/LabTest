@@ -186,6 +186,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="Index.html" />
     <Content Include="partials\home\home.html" />
+    <Content Include="partials\student\student-edit.html" />
     <Content Include="partials\student\student-entry.html" />
     <Content Include="partials\student\student-list.html" />
     <Content Include="Scripts\ai.0.15.0-build58334.js" />
